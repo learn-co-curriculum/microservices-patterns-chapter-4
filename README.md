@@ -8,7 +8,7 @@
 
 * Using countermeasures to deal with the lack of isolation
 
-![image alt text](image_5.jpg)
+![image alt text](./image_5.jpg)
 
 ## Chapter Summary
 
@@ -46,7 +46,7 @@ ACID not great for distributed. Saga is better, but are not Isolated.
 
 Example: the Create Order Saga			
 
-![image alt text](image_6.png)
+![image alt text](./image_6.png)
 
 ## Coordinating Sagas
 
@@ -54,7 +54,7 @@ Example: the Create Order Saga
 
 1. Choreography—Distribute the decision making and sequencing among the saga participants. They primarily communicate by exchanging events.
 
-![image alt text](image_7.png)
+![image alt text](./image_7.png)
 
 * Benefits
 
@@ -72,7 +72,7 @@ Example: the Create Order Saga
 
 2. Orchestration—Centralize a saga’s coordination logic in a saga orchestrator class. A saga orchestrator sends command messages to saga participants telling them which operations to perform
 
-![image alt text](image_8.png)
+![image alt text](./image_8.png)
 
 * Benefits
 
@@ -133,7 +133,7 @@ Problem: The lack of isolation potentially causes what the database literature c
 
 ## Example: Order Service and the Create Order Saga
 
-![image alt text](image_9.png)
+![image alt text](./image_9.png)
 
 **Responsibilities**
 
@@ -145,7 +145,7 @@ Problem: The lack of isolation potentially causes what the database literature c
 
 **Illustratration of both forward and compensating transactions**
 
-![image alt text](image_10.png)
+![image alt text](./image_10.png)
 
 ## Questions / Observations:
 
